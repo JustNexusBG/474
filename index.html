@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>474 CREW</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <nav class="sidebar">
+            <a href="#" onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+            <a href="index.html" class="active">Начало</a>
+            <a href="applications.html">Албуми</a>
+            <a href="shop.html">Продукти</a>
+            <a href="updates.html">Контакти</a>
+        </nav>
+        <nav class="navbar">
+            <a href="index.html" class="active1">Начало</a>
+            <a href="applications.html" class="hideOnMobile2">Албуми</a>
+            <a href="shop.html" class="hideOnMobile3">Продукти</a>
+            <a href="updates.html" class="hideOnMobile4">Контакти</a>
+            <a class="menu-button" href="#" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </nav>
+    </header>
+    
+    <section class="parallax-container">
+        <div class="parallax-background" id="parallax"></div>
+        <div class="parallax">
+            <div class="parallax-content">
+                <div class="btn-box">
+                    <a href="#">ORDER NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="new-products">
+        <h1>НОВИ ПРОДУКТИ</h1>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="clothes/blacktshirt.png" alt="Черен кейс 'The 474 Crew'" class="product-image">
+                <p>Тениска “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <img src="clothes/whitetshirt.png" alt="Черен кейс 'The 474 Crew'" class="product-image">
+                <p>Тениска “The 474 Crew”<br>Бяла</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <img src="clothes/pcase1.png" alt="Черен кейс 'The 474 Crew'" class="product-image">
+                <p>Кейс “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <p>Кейс “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <p>Кейс “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <p>Кейс “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <p>Кейс “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <p>Кейс “The 474 Crew”<br>Черен</p>
+                <button>Виж детайли</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <p>.</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>.</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>.</p>
+        </div>
+    </section>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+    <footer>
+        <h2>&copy; 2024 474CREW
+         | POPOFF | <span>@474trap</span>
+        </h2>
+    </footer>
+</body>
+
+</html>
+
+
